@@ -1,0 +1,30 @@
+# Keil MDK
+*.uvguix.*
+*.uvoptx
+*.uvopt
+*.bak
+*.dep
+*.lst
+*.map
+*.htm
+*.lnp
+*.sct
+*.d
+*.crf
+*.o
+*.axf
+*.elf
+*.hex
+*.bin
+Listings/
+Objects/
+RTE/
+DebugConfig/
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+*.swp
