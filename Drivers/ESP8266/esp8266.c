@@ -158,7 +158,7 @@ static void ESP_SendString(const char *str)
  *   → 等最多 2000ms
  *   → 如果缓冲区里出现 "OK" 就返回 1
  */
-static uint8_t ESP_SendATCommand(const char *cmd, const char *expected, uint32_t timeout)
+uint8_t ESP_SendATCommand(const char *cmd, const char *expected, uint32_t timeout)
 {
     uint32_t tick = 0;
 
